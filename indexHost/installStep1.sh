@@ -1,3 +1,4 @@
+sudo apt-get update
 
 mkdir ~/Datacube
 sudo mkdir -p /datacube/{original_data,ingested_data}
@@ -8,4 +9,4 @@ virtualenv ~/Datacube/datacube_env
 
 alias dcenv='source ~/Datacube/datacube_env/bin/activate && python -V'
 
-echo alias dcenv='source ~/Datacube/datacube_env/bin/activate && python -V'
+echo alias dcenv=''source ~/Datacube/datacube_env/bin/activate && python -V''

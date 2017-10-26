@@ -2,8 +2,20 @@
 
 ## ga-aws-usgs
 
-1. Create Ubuntu Instance 
-2. Attach and Elastic IP
-3. Test ssh access
-4. Test access to buckets
-5. install git
+
+Install Steps
+
+```
+   alias dcenv='source ~/Datacube/datacube_env/bin/activate && python -V'
+   dcenv
+    ./installStep1.sh
+   ./installDatacube.sh 
+   ./installPythonModules.sh 
+   ./installPostgres.sh 
+   ./installAdditional.sh 
+```
+
+- pip install awscli
+
+
+
