@@ -3,8 +3,8 @@
 ## Possible use of redis and rq
 
 
-1. instance start :white_checkmark:
-2. write instance get private ip - see what vpc everyone is in :white_checkmark:
+1. instance start :white_check_mark:
+2. write instance get private ip - see what vpc everyone is in :white_check_mark:
 3. create ship1
 4. install docker 
 5. test docker
