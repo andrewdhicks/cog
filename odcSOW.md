@@ -60,13 +60,13 @@ The research for this task will involve the following disciplines at a minimum:
     - ga-aws-usgs - account
     - 
 4. Data Format Constraints
-    - Cloud Optimized Geotiff - This is THE **focus**.
+    - Cloud Optimized Geotiff - This is the **focus**.
         - Comparisons to tiff, geotiff and tarred geotiff may be documented
 5. Data Base Constraint
-    - PostgreSQl (SQLAlchemy)
+    - PostgreSQL (SQLAlchemy)
     - Run on a small EC2 instance; for first demonstration
     - as with all factors in this project, this could scale up in many ways.
-        - Should use Amazon Relational Database Service (RDS) – AWS in round/phase 2
+        - Should use Amazon Relational Database Service (RDS) – AWS in round 2/phase 2
 
 
 
@@ -76,7 +76,7 @@ The research for this task will involve the following disciplines at a minimum:
 
 ### Deadline Approaching
 
-- This work needs to be completed by January 31, 2018 to be displayed on February 14.
+- This work needs to be completed by January 31, 2018 to be displayed on February 14, 2018.
 
 
 1. Data Storage of one ARD tile (full temporal legacy)
@@ -86,11 +86,29 @@ The research for this task will involve the following disciplines at a minimum:
     - private libvirt instances
 4. Prototype code for indexing from ARD.xml[2350] to PostgreSQL
 5. Demonstration of water though time over the Hayden Island area of Oregon
-    - Highlights Landsat Strengths
+    - Highlights Landsat strengths
     - Highlights ODC strengths
     - Determination of s3/cloud viability for ODC and Landsat
 
 ## Constraints and Risks
+
+### Constraints
+
+1. Limited access to project sponsors
+2. Limited access to experts at EROS
+3. Limited size of AWS instances and mostly transient use
+4. Large technology gamut and limited experience in certain technologies
+5. So many ideas; so little time
+
+### Mitigations
+
+1. Limit the scope; phase the project
+2. Follow project management rigor
+3. Target communication to the reader; evaluate the effectiveness
+4. Schedule monthly briefings
+5. Allow for some autonomy an self directed teams
+6. Build some contingency lighter weight demos - jupyter notebook - synthetic simutlatiions squared
+7. Limit tools and embrace the cloud collaborative paradigm
 
 # Roles and Responsibilities
 
