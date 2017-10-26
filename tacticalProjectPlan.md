@@ -1,5 +1,7 @@
 # Setup Test VM for Docker Ubuntu 16.04
 
+- dockerplay done :white_check_mark:
+
 # Test Docker Access to S3
 
 # Create teraform for 3 Docker Hosts
