@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<h1 id="odc-sow">ODC SOW</h1>
+<h1 id="to-do">To Do</h1>
+<ul>
+<li><a href="https://www.smartsheet.com/how-write-statement-work-any-industry">//www.smartsheet.com/how-write-statement-work-any-industry</a></li>
+</ul>
+<h1 id="introduction">Introduction</h1>
+<ul>
+<li>USGS/EROS fully supports the ODC Initiative
+<ul>
+<li>EROS values its partnership with GA on this initiative</li>
+</ul></li>
+</ul>
+<blockquote>
+<p>This document defines the joint research specifically between GA and USGS/EROS and benefits the larger science and ODC communities.</p>
+</blockquote>
+<h1 id="objectivespurpose">Objectives/Purpose</h1>
+<h2 id="the-big-why">The Big WHY:</h2>
+<blockquote>
+<p>In a nutshell scientists just want to do science!</p>
+</blockquote>
+<p>The old model of: - specifying new equipment; and waiting for it to be deployed - purchasing or deploying scientific tools - filtering and downloading data - sub-setting and further filtering data</p>
+<p>Has been disrupted/replaced by a cloud centric approach: - Infrastructure is stood up from code (IaaS) (Infrastructure as Code) - Data has been processed to standard scientific levels - Data is at your fingertips - Cloud tools (like ODC) are present and free to use - Scientists focus on science</p>
+<blockquote>
+<p>Also; There is a goal of 20 by 20 Cubes in the larger ODC context.</p>
+</blockquote>
+<h1 id="scope-of-work">Scope of Work</h1>
+<ul>
+<li><p>This document covers the technical scope of this work only. All political agreements are the responsibility of the governing bodies of each agency.</p></li>
+<li><p>The primary scope of this work is to create a Data Cube instance in the cloud that exploits s3 object stored ARD data.</p></li>
+</ul>
+<p>The research for this task will involve the following disciplines at a minimum: 1. Project Management 2. System Administration 3. Cloud Engineering 4. Software Development/Engineering 5. Data Base Administration 6. Data Science</p>
+<h2 id="limiting-the-target-use-case">Limiting the Target Use Case</h2>
+<blockquote>
+<p>To be effective we recommend limiting the target use case to: 1. Hayden Island (Portland Oregon) ## Spaghetti, 2. US ARD Data - Specifically h03v03 ## 2350 scene/tiles - target bucket (as of this writing) ga-odc-eros-co3-west - still need to code a distributed 3. AWS cloud provider - us-west-2 (Oregon) region # its all about the Oregon - ga-aws-usgs - account - 4. Data Format Constraints - Cloud Optimized Geotiff - This is the <strong>focus</strong>. - Comparisons to tiff, geotiff and tarred geotiff may be documented 5. Data Base Constraint - PostgreSQL (SQLAlchemy) - Run on a small EC2 instance; for first demonstration - as with all factors in this project, this could scale up in many ways. - Should use Amazon Relational Database Service (RDS) – AWS in round 2/phase 2</p>
+</blockquote>
+<h2 id="expected-outcomes">Expected Outcomes</h2>
+<h3 id="cloud-technology-momentum">Cloud Technology Momentum</h3>
+<ol style="list-style-type: decimal">
+<li>The cloud ship has sailed; come sail away with me</li>
+<li><h2 id="private-industry-is-already-using-satelite-data-in-interesting-ways">Private industry is already using satelite data in interesting ways</h2></li>
+</ol>
+<h3 id="gdal-is-the-key-to-application-and-data-synergies">GDAL is the key to application and data synergies</h3>
+<h3 id="how-to-best-optimize-data-in-s3">How to best optimize data in s3</h3>
+<ol style="list-style-type: decimal">
+<li>For widest scientific use (end user)</li>
+<li>For image processing; As a low cost ubiquitous data cache</li>
+</ol>
+<h3 id="develop-and-data-and-application-roadmap-baseline">Develop and data and application roadmap baseline</h3>
+<ol style="list-style-type: decimal">
+<li>Refine and accelerate the schedule for pets ---&gt; cows migration</li>
+</ol>
+<h3 id="technology-recipes-for-cloud-data-exploitation">Technology Recipes for Cloud Data Exploitation</h3>
+<ol style="list-style-type: decimal">
+<li>Reusable Infrastructure as code</li>
+<li>Validate the use of Docker containers as the primary application building block</li>
+</ol>
+<h2 id="deliverables">Deliverables</h2>
+<h3 id="s3-findings-paper-and-presentation---february-14-2018">S3 Findings Paper and Presentation - (February 14, 2018)</h3>
+<h3 id="deadline-approaching">Deadline Approaching</h3>
+<ul>
+<li>This work needs to be completed by January 31, 2018 to be displayed on February 14, 2018.</li>
+</ul>
+<ol style="list-style-type: decimal">
+<li>Data Storage of one ARD tile (full temporal legacy)</li>
+<li>Project and Task Plans</li>
+<li>Data Cube Instances
+<ul>
+<li>AWS us-west-2</li>
+<li>private libvirt instances</li>
+</ul></li>
+<li>Prototype code for indexing from ARD.xml[2350] to PostgreSQL</li>
+<li>Demonstration of water though time over the Hayden Island area of Oregon
+<ul>
+<li>Highlights Landsat strengths</li>
+<li>Highlights ODC strengths</li>
+<li>Determination of s3/cloud viability for ODC and Landsat</li>
+</ul></li>
+</ol>
+<h2 id="success-metrics">Success Metrics</h2>
+<p>Needs some thought and discussion</p>
+<ol style="list-style-type: decimal">
+<li>Lines of code</li>
+<li>Budget adherence
+<ul>
+<li>Creative cost containment in the cloud</li>
+</ul></li>
+<li>Number of demonstrations</li>
+<li>Number of scenes
+<ul>
+<li>stored</li>
+<li>processed per minute</li>
+</ul></li>
+<li>Number of meetings and conferences</li>
+<li>Number of hours on the timesheet</li>
+<li>Number of AWS services exploited or avoided</li>
+</ol>
+<h2 id="constraints-and-risks">Constraints and Risks</h2>
+<h3 id="constraints">Constraints</h3>
+<ol style="list-style-type: decimal">
+<li>Limited access to project sponsors</li>
+<li>Limited access to experts at EROS</li>
+<li>Limited size of AWS instances and mostly transient use</li>
+<li>Large technology gamut and limited experience in certain technologies</li>
+<li>So many ideas; so little time
+<ul>
+<li>Decision fatigue</li>
+<li>Direction fatigue</li>
+</ul></li>
+<li>The status quo
+<ul>
+<li>Big highly intergrated applications (we love our pets)</li>
+<li>Competing priorities</li>
+</ul></li>
+</ol>
+<h3 id="mitigations">Mitigations</h3>
+<ol style="list-style-type: decimal">
+<li>Limit the scope; phase the project
+<ul>
+<li>Use instincts and filters to determine priorities</li>
+<li>Manage the queue</li>
+<li>Favor technolgies with easily explotable abstractions</li>
+</ul></li>
+<li>Follow project management rigor
+<ul>
+<li>Validate priorities with key stakeholder(s)</li>
+</ul></li>
+<li>Target all communication to the reader; evaluate the effectiveness
+<ul>
+<li>for example executive summary level for stakeholders; technical detail among the technologists</li>
+</ul></li>
+<li>Schedule monthly briefings</li>
+<li>Allow for some autonomy an self directed teams</li>
+<li>Build some contingency lighter weight demos - jupyter notebook - synthetic simulations squared</li>
+<li>Limit tools and embrace the cloud collaborative paradigm</li>
+<li>Develop decision filters that help streamline technology and direction choices
+<ul>
+<li>Find the common denominators</li>
+<li>Stay agile</li>
+</ul></li>
+</ol>
+<h1 id="roles-and-responsibilities">Roles and Responsibilities</h1>
+<p>This is where we define who does what.</p>
+<p>GA (Australia)</p>
+<ol style="list-style-type: decimal">
+<li>All things Data Cube Code Related
+<ul>
+<li>Indexing the data</li>
+<li>Demonstrating the user interface</li>
+<li>Testing water over time (Hayden Island)</li>
+</ul></li>
+</ol>
+<p>EROS (Tony)</p>
+<ol style="list-style-type: decimal">
+<li>All things infrastructure and data storage
+<ul>
+<li>Create and populate buckets</li>
+<li>Create and tear down infrastructure</li>
+<li>Document and automate</li>
+</ul></li>
+</ol>
+<h1 id="related-work">Related Work</h1>
+<ol style="list-style-type: decimal">
+<li>Level1 Cloud Data Storage
+<ul>
+<li>Commercial use and exploitation of level1 data</li>
+<li>Collection 1</li>
+<li>Related white papers on cloud storage</li>
+</ul></li>
+</ol>
+</body>
+</html>
