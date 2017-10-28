@@ -1,0 +1,7 @@
+trqtest.py
+trqtest.egg-info/PKG-INFO
+trqtest.egg-info/SOURCES.txt
+trqtest.egg-info/dependency_links.txt
+trqtest.egg-info/entry_points.txt
+trqtest.egg-info/requires.txt
+trqtest.egg-info/top_level.txt

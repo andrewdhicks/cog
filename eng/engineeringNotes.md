@@ -2,15 +2,13 @@
 
 # Current To Do List
 
-0.1 - Look at Slack
-0.2 - Document rq and redis 
+1. - Document rq and redis 
 
 1. Develop outline for Sauer Briefing on Monday
 2. Get passport for Australia trip
 3. Build a Docker Container that uses rq for work queueing
 4. document s3
-    - 
-
+   
 
 # Redis and RQ
 
@@ -26,6 +24,7 @@
 ## Connecting
 
 - rqworker -u redis://sleepy
+
 
 
 ## References
