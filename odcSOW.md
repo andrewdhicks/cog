@@ -49,12 +49,13 @@ The research for this task will involve the following disciplines at a minimum:
 
 ## Limiting the Target Use Case
 
-> To be effective we recommend limiting the target use case to:
+**To be effective we recommend limiting the target use case to:**
+
 1. Hayden Island (Portland Oregon)  ## Spaghetti, 
 2. US ARD Data
     - Specifically h03v03 ## 2350 scene/tiles
-    - target bucket (as of this writing) ga-odc-eros-co3-west
-        - still need to code a distributed 
+    - target bucket (as of this writing) ga-odc-eros-co3-west.
+        - still need to code a distributed COG generator with terraform.
 3. AWS cloud provider
     - us-west-2 (Oregon) region # its all about the Oregon
     - ga-aws-usgs - account
@@ -86,10 +87,11 @@ The research for this task will involve the following disciplines at a minimum:
 ### Develop and data and application roadmap baseline
 1. Refine and accelerate the schedule for pets ---> cows migration
 
-### Technology Recipes for Cloud Data Exploitation
+### Reusable Technology Recipes for Cloud Data Exploitation
 
 1. Reusable Infrastructure as code
 2. Validate the use of Docker containers as the primary application building block
+    - Docker containers still need to be accepted by USGS security team.
 
 ## Deliverables
 
@@ -110,6 +112,8 @@ The research for this task will involve the following disciplines at a minimum:
     - Highlights Landsat strengths
     - Highlights ODC strengths
     - Determination of s3/cloud viability for ODC and Landsat
+
+## Terraform low cost container service and simple orchestration model
 
 ## Success Metrics
 
@@ -170,12 +174,12 @@ GA (Australia)
     - Demonstrating the user interface
     - Testing water over time (Hayden Island)
 
-EROS (Tony)
+USGS/EROS (Tony)
 
 1. All things infrastructure and data storage
     - Create and populate buckets
     - Create and tear down infrastructure
-    - Document and automate
+    - Document techniques and results; improve automation
 
 
 # Related Work
