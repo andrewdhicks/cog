@@ -75,7 +75,7 @@ The research for this task will involve the following disciplines at a minimum:
 
 ### Cloud Technology Momentum
 1. The cloud ship has sailed; come sail away with me
-2. Private industry is already using satelite data in interesting ways
+2. Private industry is already using satellite data in interesting ways
 
 ### GDAL is the key to application and data synergies
 
@@ -141,7 +141,7 @@ Needs some thought and discussion
     - Decision fatigue
     - Direction fatigue
 6. The status quo
-    - Big highly intergrated applications (we love our pets)
+    - Big highly integrated applications (we love our pets)
     - Competing priorities
 
 ### Mitigations
@@ -149,13 +149,13 @@ Needs some thought and discussion
 1. Limit the scope; phase the project
     - Use instincts and filters to determine priorities
     - Manage the queue
-    - Favor technolgies with easily explotable abstractions
+    - Favor technologies with easily exploitable abstractions
 2. Follow project management rigor
     - Validate priorities with key stakeholder(s)
 3. Target all communication to the reader; evaluate the effectiveness
     - for example executive summary level for stakeholders; technical detail among the technologists
 4. Schedule monthly briefings
-5. Allow for some autonomy an self directed teams
+5. Allow for some autonomy and self directed teams
 6. Build some contingency lighter weight demos - jupyter notebook - synthetic simulations squared
 7. Limit tools and embrace the cloud collaborative paradigm
 8. Develop decision filters that help streamline technology and direction choices
