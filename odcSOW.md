@@ -83,7 +83,7 @@ The research for this task will involve the following disciplines at a minimum:
 1. For widest scientific use (end user)
 2. For image processing; As a low cost ubiquitous data cache
 
-### Develop and data and application roadmap baseline
+### Develop the data and application roadmap baseline
 1. Refine and accelerate the schedule for pets ---> cows migration
 
 ### Reusable Technology Recipes for Cloud Data Exploitation
