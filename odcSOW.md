@@ -76,7 +76,6 @@ The research for this task will involve the following disciplines at a minimum:
 ### Cloud Technology Momentum
 1. The cloud ship has sailed; come sail away with me
 2. Private industry is already using satelite data in interesting ways
-    - 
 
 ### GDAL is the key to application and data synergies
 
