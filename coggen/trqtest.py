@@ -2,19 +2,24 @@ from redis import Redis
 from rq import SimpleWorker, Queue
 
 def bullshit():
-    print("BULSHIT Walks!")
+    print("BULLSHIT Walks!")
 
 def workerbee(task):
     print("the TASK is %s" % task)
 
     queue = Queue(connection=Redis())
     queue.enqueue('time.sleep',5)
-    worker = SimpleWorker([queue], connection=queue.connection)
-    worker.work(burst=True)  # Runs enqueued job
+    #worker = SimpleWorker([queue], connection=queue.connection)
+    #worker.work(burst=True)  # Runs enqueued job
     # Check for result...
     queue.enqueue(bullshit)
-    worker = SimpleWorker([queue], connection=queue.connection)
-    worker.work(burst=True)  # Runs enqueued job
+    queue.enqueue(bullshit)
+    queue.enqueue(bullshit)
+    queue.enqueue(bullshit)
+    queue.enqueue(bullshit)
+    queue.enqueue(bullshit)
+    #worker = SimpleWorker([queue], connection=queue.connection)
+    #worker.work(burst=True)  # Runs enqueued job
 
 
 def mainsub():
