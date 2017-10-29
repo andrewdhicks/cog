@@ -1,6 +1,9 @@
 from redis import Redis
 from rq import SimpleWorker, Queue
 
+import argparse
+
+
 def bullshit():
     print("BULSHIT Walks!")
 
@@ -18,7 +21,13 @@ def workerbee(task):
 
 
 def mainsub():
-    workerbee(task='builddir l7xxx')
+    #workerbee(task='builddir l7xxx')
+    parser = argparse.ArgumentParser(description='Test RQ by sending some work python subs')
+    parser.add_argument('url', metavar='URL', type=string, nargs='+',
+                    help='the url for the redis server ')
+
+    args = parser.parse_args()
+    print (args.url)
 
 if __name__ == "__main__":
     mainsub()
