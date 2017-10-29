@@ -10,9 +10,13 @@ def bullshit():
 def workerbee(redisServer, task):
     print("the TASK is %s" % task)
 
-    queue = Queue(connection=Redis())
+    queue = Queue(connection=Redis.from_url(redisServer))
     queue.enqueue('time.sleep',5)
     # Check for result...
+    queue.enqueue(bullshit)
+    queue.enqueue(bullshit)
+    queue.enqueue(bullshit)
+    queue.enqueue(bullshit)
     queue.enqueue(bullshit)
 
 
@@ -26,5 +30,4 @@ def mainsub():
 
 if __name__ == "__main__":
     mainsub()
-
 
