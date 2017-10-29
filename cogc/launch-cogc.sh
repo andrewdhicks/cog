@@ -1,1 +1,1 @@
-docker run --rm -it --name cog_contain tbutzer/cogc
+docker run --rm -it -v /home/tony:/root --name cog_contain tbutzer/cogc
