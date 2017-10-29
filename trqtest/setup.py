@@ -2,14 +2,14 @@
 from setuptools import setup
 
 setup (
-    name='coggen', 
+    name='trqtest', 
     version='1.0',
-    py_modules=['coggen'],
+    py_modules=['trqtest'],
     install_requires=[
         'rq',
     ],
     entry_points = {
-        'console_scripts': ['coggen=coggen:mainsub'],
+        'console_scripts': ['trqtest=trqtest:mainsub'],
     }
 )
 
