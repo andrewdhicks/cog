@@ -44,6 +44,17 @@
     - ga-odc-eros-un3-west
     - ga-odc-eros-ard-west
 
+2. Next week
+    - terraform docker ship creation and distrcution - IaC Infra as code
+
+3. Feb 14 2018 - presentation and findings - eng labs - pandas - rasterio - dc.load etc.
+    - s3 geotiff ard findings paper
+        - s3 good for this
+    - follow on researh - how about processing in the cloud
+       - transcient plus cassandra
+       - AWS all in strategy
+       - other cloud providers; generic approaches
+
 ## Approach
 
 1. Create an engineering strategic filter
