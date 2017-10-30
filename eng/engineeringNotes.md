@@ -72,7 +72,21 @@
         - lambda
         - ems; maybe lsrd unicorns here
 
+## Benefits of the Collaboration for EROS
+
+1. No longer the ones not coming to the table
+2. Ability to collaborate with an experienced and diverse group
+    - even if its only creaping on the slack channels
+    - general awarness
+    - better defines the remote sensing landscape and ways to exploit
+3. Likely to accelerate USGS EROS participation in disruptive technologies = most notably the AWS cloud
+4. Ultimately lowers the cost of many of the government's objectives
+5. Move us back to an open systems development paradigm in the face of ... 
+6. Consistent with teh direction of cloud first
+
 ## Tour
+
+Slack
 
 ## Ideas
 

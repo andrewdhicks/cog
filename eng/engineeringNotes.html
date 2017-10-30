@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<h1 id="agenda">Agenda</h1>
+<ul>
+<li>living room</li>
+</ul>
+<h2 id="sow">SOW</h2>
+<ol style="list-style-type: decimal">
+<li>Discussion and validate direction</li>
+<li>Next Steps</li>
+<li>Brian Killough - role? organization,
+<ul>
+<li>access to our buckets</li>
+<li>should we make them public readable</li>
+</ul></li>
+<li>Research Questions
+<ul>
+<li>What use cases does a stock ARD (tar) directory cover/serve?</li>
+<li>Simple Untar and Deduplication - how much better is this configuration?</li>
+<li>Is reworking the geotiff to be a COG worth the effort?
+<ul>
+<li>Does the tile size of 4000 x 4000 impeed the utility of a COG?
+<ul>
+<li>should it be 128 * 32 = 4096 instead?</li>
+</ul></li>
+</ul></li>
+<li>What use cases will HDF 5 (distributed s3) support? and when?</li>
+<li>What are the strengs and weaknesses of AWS S3</li>
+<li>How mature is s3fs?</li>
+<li>What are all of the access methods for S3?; What use cases do they support?
+<ul>
+<li>http</li>
+<li>gdal and vertical derivatives</li>
+<li>static web page urls</li>
+<li>aws s3 cli and aws s3api cli access</li>
+<li>python boto3 bindings</li>
+<li>vsicurl - vsis3 - vsitar ... etc</li>
+</ul></li>
+<li>What security best practices will be needed to strike the right ballance of access versus availability?</li>
+<li>Region and failure domain strategy for USGS EROS?
+<ul>
+<li>US ARD</li>
+<li>Global ARD</li>
+<li>level1 tier 1 collection 1</li>
+<li>lessor tiers and legacy data</li>
+</ul></li>
+</ul></li>
+<li>Start to document findings ina white paper
+<ul>
+<li>partner with the DAAC</li>
+<li>partner with Gacke</li>
+</ul></li>
+</ol>
+<h2 id="deliverables">Deliverables</h2>
+<ol style="list-style-type: decimal">
+<li>This week a full COG bucket with ingestor geotiff settings
+<ul>
+<li>ga-odc-eros-co3-west</li>
+<li>ga-odc-eros-un3-west</li>
+<li>ga-odc-eros-ard-west</li>
+</ul></li>
+</ol>
+<h2 id="approach">Approach</h2>
+<ol style="list-style-type: decimal">
+<li>Create an engineering strategic filter
+<ul>
+<li>must be open source</li>
+<li>must use python</li>
+<li>must be cattle; must not be pet</li>
+<li>must be able to learn and deploy in a single day</li>
+<li>must be agile - not blocked on anything - $, politics, procurements, people etc</li>
+<li></li>
+<li></li>
+</ul></li>
+<li>Develop ninja skills in necessary technologies
+<ul>
+<li>terraform</li>
+<li>python</li>
+<li>gis, web mapping,</li>
+<li>data science</li>
+<li>nosql - key value</li>
+<li>orchestration</li>
+<li>message queueing and job control</li>
+<li>AWS stuff
+<ul>
+<li>s3</li>
+<li>ec2</li>
+<li>ebs</li>
+<li>ecs</li>
+<li>rds; maybe GA here</li>
+<li>lambda</li>
+<li>ems; maybe lsrd unicorns here</li>
+</ul></li>
+</ul></li>
+</ol>
+<h2 id="benefits-of-the-collaboration-for-eros">Benefits of the Collaboration for EROS</h2>
+<ol style="list-style-type: decimal">
+<li>No longer the ones not coming to the table</li>
+<li>Ability to collaborate with an experienced and diverse group
+<ul>
+<li>even if its only creaping on the slack channels</li>
+<li>general awarness</li>
+<li>better defines the remote sensing landscape and ways to exploit</li>
+</ul></li>
+<li>Likely to accelerate USGS EROS participation in disruptive technologies = most notably the AWS cloud</li>
+<li>Ultimately lowers the cost of many of the government's objectives</li>
+<li>Move us back to an open systems development paradigm in the face of ...</li>
+<li>Consistent with teh direction of cloud first</li>
+</ol>
+<h2 id="tour">Tour</h2>
+<p>Slack</p>
+<h2 id="ideas">Ideas</h2>
+<h2 id="brians-questions-and-suggestions---the-sauer-hour">Brian's questions and suggestions - the Sauer Hour</h2>
+</body>
+</html>
