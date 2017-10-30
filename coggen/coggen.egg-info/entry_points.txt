@@ -1,0 +1,4 @@
+[console_scripts]
+coggen = coggen:mainsub
+cogslave = cogslave:mainsub
+

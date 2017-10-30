@@ -76,6 +76,8 @@ The research for this task will involve the following disciplines at a minimum:
 ### Cloud Technology Momentum
 1. The cloud ship has sailed; come sail away with me
 2. Private industry is already using satellite data in interesting ways
+3. USGS/EROS compute and storage roles are almost all embarassingly parallel
+4. The AWS cloud services are a good match and amazingly cost effective for this class of compute/storage problems.
 
 ### GDAL is the key to application and data synergies
 

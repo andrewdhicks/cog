@@ -1,0 +1,9 @@
+buntarDedup.py
+coggen.py
+cogslave.py
+coggen.egg-info/PKG-INFO
+coggen.egg-info/SOURCES.txt
+coggen.egg-info/dependency_links.txt
+coggen.egg-info/entry_points.txt
+coggen.egg-info/requires.txt
+coggen.egg-info/top_level.txt
