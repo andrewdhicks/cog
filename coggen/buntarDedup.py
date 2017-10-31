@@ -202,8 +202,8 @@ def bunde(xml):
     paths.append(theDir)
     dedupThem(paths)
     dfdu(duDir)
-    ##s3sync(fname=theDir)
-    ##rmTmpDir(dir=theDir)
+    s3sync(fname=theDir)
+    rmTmpDir(dir=theDir)
 
     Bigtime1 = time.time()
     elapsed = Bigtime1 - Bigtime0
