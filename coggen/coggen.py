@@ -10,7 +10,8 @@ def queenbee(redisServer, task, *args):
 
 
 def mainsub():
-    url='redis://dockerplay'
+    #url='redis://dockerplay'
+    url='redis://172.31.3.145'
     
     workFile='workIn.txt'
 

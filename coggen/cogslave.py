@@ -16,7 +16,8 @@ def workerbee(redisServer):
 
 
 def mainsub():
-    url='redis://dockerplay'
+    #url='redis://dockerplay'
+    url='redis://172.31.3.145'
     workerbee(redisServer=url)
 
 if __name__ == "__main__":
