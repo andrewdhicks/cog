@@ -13,8 +13,9 @@
     - What use cases does a stock ARD (tar) directory cover/serve?
     - Simple Untar and Deduplication - how much better is this configuration?
     - Is reworking the geotiff to be a COG worth the effort?
-        - Does the tile size of 4000 x 4000 impeed the utility of a COG?
-            - should it be 128 * 32 = 4096 instead?
+        - Does the tile size of 5000 x 5000 impeed the utility of a COG?
+            - should it be  = 5120 instead?
+            - byte boundary problems etc
     - What use cases will HDF 5 (distributed s3) support? and when?
     - What are the strengths and weaknesses of AWS S3
     - How mature is s3fs?
