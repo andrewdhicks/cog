@@ -16,7 +16,7 @@
         - Does the tile size of 4000 x 4000 impeed the utility of a COG?
             - should it be 128 * 32 = 4096 instead?
     - What use cases will HDF 5 (distributed s3) support? and when?
-    - What are the strengs and weaknesses of AWS S3
+    - What are the strengths and weaknesses of AWS S3
     - How mature is s3fs?
     - What are all of the access methods for S3?; What use cases do they support?
         - http
@@ -25,13 +25,13 @@
         - aws s3 cli and aws s3api cli access
         - python boto3 bindings
         - vsicurl - vsis3 - vsitar ... etc
-    - What security best practices will be needed to strike the right ballance of access versus availability?
+    - What security best practices will be needed to strike the right balance of access versus availability?
     - Region and failure domain strategy for USGS EROS?
         - US ARD
         - Global ARD
         - level1 tier 1 collection 1 
         - lessor tiers and legacy data
-5. Start to document findings ina white paper
+5. Start to document findings in a white paper
     - partner with the DAAC
     - partner with Gacke
 
@@ -45,13 +45,13 @@
     - ga-odc-eros-ard-west
 
 2. Next week
-    - terraform docker ship creation and distrcution - IaC Infra as code
+    - terraform docker ship creation and distruction - IaC Infra as code
 
 3. Feb 14 2018 - presentation and findings - eng labs - pandas - rasterio - dc.load etc.
     - s3 geotiff ard findings paper
         - s3 good for this
-    - follow on researh - how about processing in the cloud
-       - transcient plus cassandra
+    - follow on research - how about processing in the cloud
+       - transient plus Cassandra
        - AWS all in strategy
        - other cloud providers; generic approaches
 
@@ -73,7 +73,7 @@
     - data science
     - nosql - key value
     - orchestration
-    - message queueing and job control
+    - message queuing and job control
     - AWS stuff
         - s3
         - ec2
@@ -87,13 +87,13 @@
 
 1. No longer the ones not coming to the table
 2. Ability to collaborate with an experienced and diverse group
-    - even if its only creaping on the slack channels
-    - general awarness
+    - even if its only creeping on the slack channels
+    - general awareness
     - better defines the remote sensing landscape and ways to exploit
 3. Likely to accelerate USGS EROS participation in disruptive technologies = most notably the AWS cloud
 4. Ultimately lowers the cost of many of the government's objectives
 5. Move us back to an open systems development paradigm in the face of ... 
-6. Consistent with teh direction of cloud first
+6. Consistent with the direction of cloud first
 
 ## Tour
 
