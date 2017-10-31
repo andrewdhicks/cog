@@ -11,9 +11,16 @@ def queenbee(redisServer, task, *args):
 
 def mainsub():
     url='redis://dockerplay'
-    queenbee(url, 'cogslave.bullshit', ('hi'))
-    queenbee(url, 'buntarDedup.bunde', 'h03v03/LC08_CU_003003_20130414_20170713_C01_V01.xml',)
-    #queenbee('h03v03/LC08_CU_003003_20130414_20170713_C01_V01.tif', redisServer=url, task='buntarDedup.bunde')
+    
+    workFile='workIn.txt'
+
+    with open(workFile) as f:
+        for line in f:
+            print (line)
+            a = line.split('h03v03/')
+            id = 'h03v03/' + a[1]
+            print (id)
+            queenbee(url, 'buntarDedup.bunde', id ,)
 
 if __name__ == "__main__":
     mainsub()

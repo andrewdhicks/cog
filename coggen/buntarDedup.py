@@ -161,6 +161,7 @@ dups={}
 
 def bunde(xml):
     """ This subroutine untars and dedups a ARD tile/scene"""
+    global dups
 
     Bigtime0 = time.time()
 
@@ -203,7 +204,7 @@ def bunde(xml):
     dedupThem(paths)
     dfdu(duDir)
     s3sync(fname=theDir)
-    rmTmpDir(dir=theDir)
+    rmTmpDir(dir=duDir)
 
     Bigtime1 = time.time()
     elapsed = Bigtime1 - Bigtime0
