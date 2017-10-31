@@ -12,7 +12,7 @@ RUN apt-get -yqq update \
 RUN cd /opt \
    && git clone https://github.com/tonybutzer/cog.git \
    #&&  echo hi 
-   &&  cd /opt/cog/trqtest \
+   &&  cd /opt/cog/coggen \
    &&  pip3 install -e .
 
 CMD ["bash"]
