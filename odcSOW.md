@@ -172,7 +172,10 @@ GA (Australia)
 
 1. All things Data Cube Code Related
     - Indexing the data
-    - Demonstrating the user interface
+    - Demonstrating the user interface - options are:
+      - Jupyter Notebook
+      - CEOS-SEO web interface
+      - WMS prototype
     - Testing water over time (Hayden Island)
 
 USGS/EROS (Tony)
